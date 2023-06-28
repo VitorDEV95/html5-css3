@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+body {
+background-image:url(background/meuback.jpg);
+
+
+
+}
+
+main {
+background-color: white;
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgb(155,111,111);
+width: 600px;
+padding: 10px;
+margin: auto;
+box-shadow: 5px 5px 15px #0023334e
+}
+
+h1{
+color:#159A9C;
+text-align: center;
+text-shadow: 1px 1px 0px #020e0eb3;
+}
+
+h2{
+color:#002333 ;
+}
+ p {
+
+    text-align: justify;
+ }
