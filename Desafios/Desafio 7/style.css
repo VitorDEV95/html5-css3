@@ -1,11 +1,40 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root { 
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+* { 
+margin: 0px;            /*Configurçãoes gerais**/
+padding: 0px;
+font-size: 1em;
+
+}
+
+
+
+
+
 html, body {
+font-family: var(--fonte1);
 min-height: 100vh;
 background-color: darkgray;
 
@@ -13,26 +42,27 @@ background-color: darkgray;
 }
 
 header {
-    background-color: black;
-    color: white;
-    text-align: center;
+background-color: black;
+color: white;
+text-align: center;
 }
 
 header > h1 {
-
+font-family: var(--fonte2);
 padding-top:50px ;
 font-variant: small-caps;
+font-size: 10vh;
 }
 
 header > p {
 
-    padding-bottom: 50px;
+padding-bottom: 50px;
 }
 
 header a, footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+color: white;
+text-decoration: none;
+font-weight: bolder;
 }
 
 header a:hover, footer a:hover {
@@ -47,34 +77,37 @@ padding-top: 10vh;
 padding-bottom: 10vh;
 line-height: 2em;
 padding-left: 30px;
-
+font-family: var(--fonte3);
+font-size: 3.5vh;
 }
 
 
 
 section.normal{
-    background-color: white;
-    color: black;
+background-color: white;
+color: black;
 }
 
-section.imagem{
+section.imagem {
 
-    background-color: #515151;
-    color: white;
+
+background-color: #515151;
+color: white;
 
 }
 
 section.imagem > p  {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.253);
+display: inline-block;
+background-color: rgba(0, 0, 0, 0.253);
+padding: 5px;
 
 }
 
 
 footer {
 
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
 }
